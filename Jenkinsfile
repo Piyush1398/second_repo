@@ -3,6 +3,7 @@ pipeline{
   stages{
     stage("permission"){
       steps{
+        sh'./hi.sh'
          echo "permission given"
       }
     }
