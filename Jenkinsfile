@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("built"){
       steps{
-        sh'./hi.sh'
+        bash'./hi.sh'
       }
     }
     stage("last process update"){
