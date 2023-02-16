@@ -3,13 +3,12 @@ pipeline{
   stages{
     stage("permission"){
       steps{
-        sh "chmod +x hi.sh"
-        sh "ls"
+         sh "ls"
       }
     }
     stage("build"){
       steps{
-        sh 'bash hi.sh'
+        sh 'bash hi'
       }
     }
     stage("test"){
