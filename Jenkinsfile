@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
           
             steps {
-                sh "bash hi.sh"
+                echo "bash hi.sh"
             }
         }
     }
