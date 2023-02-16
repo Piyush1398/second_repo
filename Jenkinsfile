@@ -3,12 +3,12 @@ pipeline{
   stages{
     stage("permission"){
       steps{
-         sh "ls"
+         echo "permission given"
       }
     }
     stage("build"){
       steps{
-        sh 'bash hi'
+       echo "build in process and completed"
       }
     }
     stage("test"){
