@@ -1,12 +1,12 @@
 pipeline{
   agent any
   stages{
-    stage("permission"){
+    stage("built"){
       steps{
         sh'./hi.sh'
       }
     }
-    stage("build"){
+    stage("last process update"){
       steps{
        echo "build in process and completed"
       }
