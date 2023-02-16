@@ -1,6 +1,7 @@
 pipeline{
   
-  stages{
+  agent none
+   stages{
     stage("built"){
       steps{
         bash'./hi.sh'
