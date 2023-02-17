@@ -27,7 +27,7 @@ pipeline {
     stages {
         stage('Execute Shell Script') {
             steps {
-                sh "ls"
+                
                 sh './hi.sh'
             }
         }
